@@ -37,7 +37,7 @@ let package = Package(
             dependencies: [],
             path: "Source",
             resources: [
-                .copy("Fonts")
+                .process("Fonts")
             ]),
     ]
 )
