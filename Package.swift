@@ -35,6 +35,7 @@ let package = Package(
         .target(
             name: "SwiftIcons",
             dependencies: [],
+            path: "Source",
             resources: [
                 .process("Source/Fonts/")
             ]),
