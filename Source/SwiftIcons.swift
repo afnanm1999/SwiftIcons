@@ -722,7 +722,7 @@ private class FontLoader {
             if (identifier?.hasPrefix("org.cocoapods"))! {
                 fontURL = bundle.url(forResource: fileName, withExtension: "ttf", subdirectory: "SwiftIcons.bundle")
             } else {
-                fontURL = bundle.url(forResource: "Emoji",
+                fontURL = bundle.url(forResource: fileName,
                                      withExtension: "ttf",
                                      subdirectory: "SwiftIcons_SwiftIcons.bundle/Fonts")
             }
